@@ -1,0 +1,4 @@
+<repast.simphony.userpanel.ui.DefaultUserPanelDescriptor simphonyVersion="2.9.0">
+  <name>Custom Panel</name>
+  <userPanelCreator>MAS_SCMS_Style.User_Panel</userPanelCreator>
+</repast.simphony.userpanel.ui.DefaultUserPanelDescriptor>

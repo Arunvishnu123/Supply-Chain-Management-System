@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<parameters>
+					<parameter name="Customer_Count" displayName="Number of Customers" type="int" 
+						defaultValue="50" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+						displayOrder="5.0"
+									
+		/>
+				<parameter name="Retailer_Count" displayName="Number of Retailers" type="int" 
+						defaultValue="10" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+						displayOrder="4.0"
+									
+		/>
+				<parameter name="Distributor_Count" displayName="Number of Distributors" type="int" 
+						defaultValue="5" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+						displayOrder="3.0"
+									
+		/>
+		
+				<parameter name="Manufacture_Count" displayName="Number of Manufactures" type="int" 
+						defaultValue="1" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+						displayOrder="1.0"
+									
+		/>
+		
+				<parameter name="Raw_Material_Count" displayName="Number of Raw Materials Supplier" type="int" 
+						defaultValue="2" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+						displayOrder="2.0"
+						
+									
+		/>
+		<parameter name="Distributor_Max_Stock_Limit" displayName="Distributor Maximum Stock Limit" type="int" 
+						defaultValue="300" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+						displayOrder="7.0"
+									
+		/>
+		
+			<parameter name="Retailer_Maximum_Capacity" displayName="Retailer Maximum Storage Capacity" type="int" 
+						defaultValue="40" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+						displayOrder="8.0"
+									
+		/>
+		
+			<parameter name="Manufacuturing_Capacity" displayName="Total Manufacturing Plant Storing Capacity" type="int" 
+						defaultValue="200" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+						displayOrder="6.0"
+									
+		/>
+				<parameter name="randomSeed" displayName="Default Random Seed" type="int" 
+						defaultValue="2"
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+						displayOrder="0.0"
+									
+		/>
+				
+		</parameters>
+
+

@@ -1,0 +1,48 @@
+<repast.simphony.data2.engine.DataSetDescriptor simphonyVersion="2.9.0">
+  <name>A Data Set</name>
+  <type>AGGREGATE</type>
+  <inclTick>true</inclTick>
+  <inclBatchRun>false</inclBatchRun>
+  <inclRandomSeed>false</inclRandomSeed>
+  <scheduleParams>
+    <start>1.0</start>
+    <interval>1.0</interval>
+    <priority>-Infinity</priority>
+    <pType>LAST</pType>
+    <duration>-1.0</duration>
+    <frequency>REPEAT</frequency>
+    <hashCode>1699643212</hashCode>
+  </scheduleParams>
+  <atEnd>false</atEnd>
+  <methodDataSources class="linked-hash-map">
+    <entry>
+      <string>Manufacture_Products</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Manufacture_Products</id>
+        <className>mAS_SCMS.Manufacture_Agent</className>
+        <methodName>getManufactureProducts</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Raw Materials 1</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Raw Materials 1</id>
+        <className>mAS_SCMS.Manufacture_Agent</className>
+        <methodName>getRawMaterials_1_Quantity</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+  </methodDataSources>
+  <countSources class="linked-hash-map">
+    <entry>
+      <string>Raw Materials 2</string>
+      <repast.simphony.data2.engine.CountSourceDefinition>
+        <typeName>mAS_SCMS.Manufacture_Agent</typeName>
+        <id>Raw Materials 2</id>
+      </repast.simphony.data2.engine.CountSourceDefinition>
+    </entry>
+  </countSources>
+  <customNADataSources class="linked-hash-map"/>
+  <customAggDataSources class="linked-hash-map"/>
+</repast.simphony.data2.engine.DataSetDescriptor>
